@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Live demo (try DSC-3 in browser)
+    url: https://dsc3.originneural.ai/
+    about: Run benchmarks against DSC-3 from your browser; no install needed.
+  - name: Companion paper (500-million-spin demonstration)
+    url: https://github.com/OriginNeuralAI/DSC3-DWave-Comparison-2026/blob/main/main.pdf
+    about: See the cited companion benchmark paper for single-shot mega-scale capability.

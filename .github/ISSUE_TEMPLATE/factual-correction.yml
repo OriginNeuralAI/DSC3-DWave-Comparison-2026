@@ -1,0 +1,30 @@
+name: Factual correction
+description: A number, claim, citation, or statement in the paper is wrong
+title: "[Correction] short description"
+labels: ["correction", "needs-triage"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Where in the paper?
+      placeholder: "Section §X, page Y, paragraph starting 'On a representative...'"
+    validations:
+      required: true
+  - type: textarea
+    id: incorrect
+    attributes:
+      label: What is currently stated
+      description: Paste the exact text or claim that is incorrect
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What should it say
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Source of correction
+      description: Paper / preprint / dataset / cited primary source that shows the original is wrong

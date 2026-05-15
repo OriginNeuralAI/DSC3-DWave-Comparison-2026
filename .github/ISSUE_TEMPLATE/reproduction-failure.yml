@@ -1,0 +1,47 @@
+name: Reproduction failure
+description: A documented command in Appendix A or one of the run scripts did not produce the expected JSON
+title: "[Reproduction] short description"
+labels: ["reproduction", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Reproduction failure
+
+        Use this template if you followed Appendix A or one of the `run_*.sh` scripts and got a different JSON, a crash, or no output.
+        The goal is to figure out whether this is an engine bug, a hardware-environment mismatch, or a paper-documentation gap.
+  - type: input
+    id: benchmark
+    attributes:
+      label: Which benchmark (B1–B6) and which preset?
+      placeholder: "B1, L=12, production preset, n=4 seeds"
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware + software environment
+      placeholder: |
+        GPU model, VRAM, system RAM, OS, CUDA, Rust toolchain
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Exact command you ran
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: expected-sha
+    attributes:
+      label: Reference SHA-256 from paper Appendix E
+      description: Which file in `results/` were you trying to reproduce? Paste its SHA-256 from the manifest.
+  - type: textarea
+    id: observed
+    attributes:
+      label: What you got
+      description: Output JSON content (or SHA-256 if it ran to completion), log lines if there was an error
+      render: shell
+    validations:
+      required: true

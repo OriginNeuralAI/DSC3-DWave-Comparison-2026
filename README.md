@@ -121,6 +121,27 @@ pdflatex main.tex              # Rebuild paper.pdf
 **Bryan W. Daugherty¹, Gregory Ward¹, Shawn Ryan¹**
 ¹Origin Neural — <https://originneural.ai>
 
+## Evaluate DSC-3 on your own workload
+
+Three paths, in order of effort:
+
+| Path | Effort | What you get |
+|---|---|---|
+| **Live REST endpoint** — <https://dsc3.originneural.ai/> | Zero install | `POST /v1/solve` and `POST /v1/mega-benchmark` accept QUBO / Ising problems up to N = 5 × 10⁸ spins. Same engine binary as this paper. |
+| **Replicate the paper** | ~30 min on a comparable GPU droplet | Follow Appendix A of `main.pdf` or the `run_*.sh` scripts in this repo. Verify your SHA-256s against Appendix E. |
+| **Adapt to your workload** | Hours–days | Map your problem to Ising/QUBO using one of 16 encoders in the parent `isomorphic-engine` repo; run the same DSC-3 ensemble; compare to your existing classical solver at matched compute budget. |
+
+---
+
+## More
+
+- [`CHANGELOG.md`](CHANGELOG.md) — version history
+- [`CONTRIBUTING.md`](CONTRIBUTING.md) — how to file a falsification attempt, reproduction failure, or factual correction
+- [`FAQ.md`](FAQ.md) — pre-emptive answers to reviewer and procurement questions
+- [`results/README.md`](results/README.md) — artefact taxonomy (load-bearing vs auxiliary)
+
+---
+
 ## Citation
 
 ```bibtex

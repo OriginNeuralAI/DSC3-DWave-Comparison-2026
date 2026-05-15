@@ -1,0 +1,63 @@
+name: Falsification attempt (F1–F5)
+description: Report an attempt to falsify one of the paper's five falsifiable claims (§15.5 of main.pdf)
+title: "[Falsification] F? — short description"
+labels: ["falsification", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Falsification attempt
+
+        The paper makes five specific, falsifiable claims (F1–F5 in §15.5 of `main.pdf`).
+        This template is for reporting an empirical attempt to falsify one of them.
+        We welcome refutations and will respond promptly.
+  - type: dropdown
+    id: claim
+    attributes:
+      label: Which claim are you attempting to falsify?
+      options:
+        - F1 — Hartmann match (E/E_LB outside published band at L≤40 production or L≥50 fast preset)
+        - F2 — Ensemble-vs-SA crossover (SA-only matches or beats DSC-3 ensemble at matched compute-intensity)
+        - F3 — Cost-ratio claim (Leap pricing brings all-in cost below \$5/hour at our benchmark scale)
+        - F4 — Cryptanalysis differentiator (D-Wave publishes a comparable benchmark)
+        - F5 — Ceiling-push claim (engine fails to produce valid CSR + multi-seed result at L=100 fast preset on 16–48 GB GPU with ≥62 GB RAM)
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware + software environment
+      description: GPU model, RAM, OS, Rust toolchain, isomorphic-engine commit SHA
+      placeholder: |
+        GPU: NVIDIA RTX 6000 Ada (48 GB) on Ubuntu 22.04, CUDA 12.9
+        Rust: stable 1.80.0
+        isomorphic-engine: v0.15.1-paper (commit SHA)
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Exact commands run
+      description: Paste the verbatim command line(s) that produced the falsifying result
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed result
+      description: What did you measure? Paste log + JSON snippet if helpful.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Claim band the result falls outside
+      description: For F1 this is E/E_LB band; for F2 the +6%–7% or +0.13–0.37% range; etc.
+    validations:
+      required: true
+  - type: textarea
+    id: artefact
+    attributes:
+      label: Result JSON (if produced)
+      description: Attach or link the JSON file your run produced, with its SHA-256 if possible
