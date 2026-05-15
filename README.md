@@ -135,6 +135,8 @@ Three paths, in order of effort:
 
 ## More
 
+- 🌐 **Browsable landing page**: <https://originneuralai.github.io/DSC3-DWave-Comparison-2026/>
+- [`EXECUTIVE_SUMMARY.md`](EXECUTIVE_SUMMARY.md) — one-page summary for CTOs / procurement officers
 - [`CHANGELOG.md`](CHANGELOG.md) — version history
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — how to file a falsification attempt, reproduction failure, or factual correction
 - [`FAQ.md`](FAQ.md) — pre-emptive answers to reviewer and procurement questions

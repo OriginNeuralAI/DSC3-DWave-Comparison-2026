@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DSC-3 vs D-Wave Advantage2 — Industrial Benchmark Comparison</title>
+<meta name="description" content="A reproducible classical reference for D-Wave Advantage2's 2024-2026 industrial benchmarks. Ground-state 3D pm J Ising at N=10^6 spins on a $1.57/hour GPU droplet.">
+<meta property="og:title" content="DSC-3 vs D-Wave Advantage2">
+<meta property="og:description" content="40-page paper + reproducible SHA-256-pinned artefacts. 10^4-10^5x cheaper per solve; 227x past D-Wave's 4,400-qubit embedding ceiling on 3D Ising.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://originneuralai.github.io/DSC3-DWave-Comparison-2026/">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+:root { color-scheme: light dark; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  max-width: 880px; margin: 0 auto; padding: 2rem 1.2rem 4rem;
+  line-height: 1.55; color: #1a1a1a;
+}
+@media (prefers-color-scheme: dark) {
+  body { background: #0d1117; color: #e6edf3; }
+  a { color: #58a6ff; }
+}
+h1 { font-size: 1.7rem; margin-bottom: .3rem; }
+h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #ccc4; padding-bottom: .3rem; }
+.tag { display: inline-block; padding: .12rem .55rem; margin-right: .25rem;
+       background: #eef; color: #338; border-radius: 999px;
+       font-size: .78rem; vertical-align: middle; }
+@media (prefers-color-scheme: dark) { .tag { background: #1f2a4a; color: #aac; } }
+.cta { display: inline-block; padding: .55rem 1rem; margin: .3rem .3rem .3rem 0;
+       background: #2c5282; color: #fff; text-decoration: none; border-radius: 6px;
+       font-weight: 600; }
+.cta:hover { background: #1a365d; }
+.cta.alt { background: transparent; color: #2c5282; border: 1px solid #2c5282; }
+@media (prefers-color-scheme: dark) {
+  .cta { background: #58a6ff; color: #0d1117; }
+  .cta.alt { background: transparent; color: #58a6ff; border-color: #58a6ff; }
+}
+table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .92rem; }
+th, td { text-align: left; padding: .4rem .6rem; border-bottom: 1px solid #ddd5; }
+th { background: #f5f5f5; }
+@media (prefers-color-scheme: dark) { th { background: #1c2128; } }
+.embed { border: 1px solid #ccc4; border-radius: 6px; width: 100%; height: 80vh; }
+.muted { color: #66786f; font-size: .9rem; }
+code { background: #f0f0f0; padding: .1rem .3rem; border-radius: 3px; font-size: .9em; }
+@media (prefers-color-scheme: dark) { code { background: #1c2128; } }
+</style>
+</head>
+<body>
+
+<h1>DSC-3 vs D-Wave Advantage2 — Industrial Benchmark Comparison (2024–2026)</h1>
+<p class="muted">
+  <span class="tag">v0.15.1-paper</span>
+  <span class="tag">CC-BY-4.0</span>
+  <span class="tag">40 pp</span>
+  <span class="tag">SHA-256 manifest</span>
+</p>
+
+<p>
+  A reproducible classical reference for D-Wave Advantage2's 2024–2026 industrial benchmarks.
+  Ground-state 3D&nbsp;±J Ising at <strong>N = 10<sup>6</sup> spins</strong> on a $1.57/hour GPU droplet, with SHA-256-pinned artefacts and a "Benchmark Gap" audit of D-Wave's published reproducibility deficits.
+</p>
+
+<p>
+  <a class="cta" href="main.pdf">Open the paper (PDF, 40 pp)</a>
+  <a class="cta alt" href="https://github.com/OriginNeuralAI/DSC3-DWave-Comparison-2026">View on GitHub</a>
+  <a class="cta alt" href="https://dsc3.originneural.ai/">Live demo</a>
+</p>
+
+<h2>Headline findings</h2>
+
+<table>
+<thead><tr><th>Axis</th><th>D-Wave Advantage2</th><th>DSC-3 (this work)</th><th>Ratio</th></tr></thead>
+<tbody>
+<tr><td>Max embeddable problem</td><td>4,400 qubits</td><td><strong>1,000,000</strong> (droplet, n=4 seeds)</td><td>~227×</td></tr>
+<tr><td>Hardware capex</td><td>$10–15M list</td><td>$1.57/hour droplet</td><td>10<sup>4</sup>–10<sup>5</sup>×</td></tr>
+<tr><td>Power continuous</td><td>12.5 kW</td><td>0.30 kW (GPU TDP)</td><td>42×</td></tr>
+<tr><td>$/solve at N=1,728</td><td>$0.05–$1.30 (Leap floor)</td><td><strong>$0.024</strong></td><td>10<sup>2</sup>–10<sup>5</sup>×</td></tr>
+<tr><td>3D EA quality vs Hartmann (2001)</td><td><em>sampling, not GS</em></td><td>±1% at L≤40 production preset</td><td>matched</td></tr>
+<tr><td>MaxCut Δ vs SA at N=10,000</td><td>not embeddable</td><td><strong>+0.13–0.20%</strong>, σ ≤ 0.02%</td><td>DSC-3 only</td></tr>
+<tr><td>Cryptanalysis (SHA/AES/RSA/GNFS)</td><td>not addressed</td><td>production encoders</td><td>DSC-3 only</td></tr>
+<tr><td>Quantum-coherent sampling</td><td>yes (Science 2025)</td><td>no (classical engine)</td><td>D-Wave only</td></tr>
+</tbody>
+</table>
+
+<h2>Six benchmarks covered</h2>
+
+<table>
+<thead><tr><th>Bench</th><th>D-Wave reference</th><th>DSC-3 result</th></tr></thead>
+<tbody>
+<tr><td><strong>B1</strong> 3D ±J Ising</td><td>King et al. <em>Science</em> 2025 (sampling, N≈5000)</td><td>Ground-state arg-min, N ≤ 10<sup>6</sup>, ±1% Hartmann at L≤40</td></tr>
+<tr><td><strong>B2</strong> Currency arbitrage</td><td>Cococcioni et al. 2025 (Advantage2 Prototype 2.6)</td><td>Hamiltonian-cycle variant; 100% feas at N≤8; +5–22% recovered profit</td></tr>
+<tr><td><strong>B3</strong> Stride 45-instance + extension</td><td>Booth et al. 2024 (10× metaheuristic claim)</td><td>Matched-spec ensembles + N=5k/10k beyond-embedding probe (σ error bars)</td></tr>
+<tr><td><strong>B4</strong> SCM (5 verticals)</td><td>SCM survey 2025–2026 (12–18% cost reduction)</td><td>UFL (1 of 5); +5–30% gap to exact DP</td></tr>
+<tr><td><strong>B5</strong> Drug discovery + PoQW</td><td>JT/D-Wave LLM-molecular-generation; PoQW conceptual</td><td>Fragment-selection sub-problem (0–5% gap); r=4 SHA-256 preimage</td></tr>
+<tr><td><strong>B6</strong> Cryptanalysis differentiator</td><td><em>no D-Wave publication</em></td><td>SHA-256 / AES / RSA-256 BD / GNFS Phase C+ encoders</td></tr>
+</tbody>
+</table>
+
+<h2>Read the paper inline</h2>
+<iframe class="embed" src="main.pdf"></iframe>
+
+<h2>Quick navigation</h2>
+<ul>
+<li><a href="https://github.com/OriginNeuralAI/DSC3-DWave-Comparison-2026/blob/main/FAQ.md">FAQ</a> — pre-emptive answers to reviewer and procurement questions</li>
+<li><a href="https://github.com/OriginNeuralAI/DSC3-DWave-Comparison-2026/blob/main/CONTRIBUTING.md">Contributing</a> — how to file a falsification attempt or factual correction</li>
+<li><a href="https://github.com/OriginNeuralAI/DSC3-DWave-Comparison-2026/tree/main/results">Result artefacts</a> — load-bearing JSONs with SHA-256 manifest</li>
+<li><a href="https://github.com/OriginNeuralAI/DSC3-DWave-Comparison-2026/issues/new/choose">Open an issue</a> — falsification / reproduction / correction templates</li>
+</ul>
+
+<p class="muted" style="margin-top: 3rem;">
+  Authors: Bryan W. Daugherty, Gregory Ward, Shawn Ryan — Origin Neural — <a href="https://originneural.ai">originneural.ai</a><br>
+  Companion paper: <em>DSC-3 Benchmark Suite: 500 Million Spins on a Single GPU</em>.
+</p>
+
+</body>
+</html>
