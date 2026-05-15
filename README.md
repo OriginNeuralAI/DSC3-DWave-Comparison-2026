@@ -1,5 +1,10 @@
 # DSC-3 vs. D-Wave Advantage2 — Industrial Benchmark Comparison (2024–2026)
 
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Release: v0.15.1-paper](https://img.shields.io/badge/release-v0.15.1--paper-blue)](https://github.com/OriginNeuralAI/DSC3-DWave-Comparison-2026/releases/tag/v0.15.1-paper)
+[![Paper: 40 pp](https://img.shields.io/badge/paper-40%20pp-success)](main.pdf)
+[![Reproducible: SHA-256 manifest](https://img.shields.io/badge/reproducible-SHA--256%20manifest-brightgreen)](main.pdf)
+
 **A reproducible classical reference for D-Wave Advantage2's 2024–2026 industrial benchmarks. Ground-state 3D ±J Ising at N = 10⁶ spins on a $1.57/hour GPU droplet, with SHA-256-pinned artefacts and a "Benchmark Gap" audit.**
 
 ---

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this paper or its artefacts, please cite as below."
+type: report
+title: "A Reproducible Classical Reference for D-Wave Advantage2's 2024-2026 Industrial Benchmarks: Ground-state 3D pm J Ising at N = 10^6 Spins on a $1.57/Hour GPU Droplet, with SHA-256-Pinned Artefacts and a 'Benchmark Gap' Audit"
+abstract: "On a single $1.57/hour cloud GPU droplet and a $700 consumer workstation, we reproduce D-Wave Advantage2's 2024-2026 published industrial benchmarks on the DSC-3 classical 16-solver ensemble without consuming any D-Wave Leap QPU minutes. The production-preset ensemble matches the Hartmann (2001) literature value within 1% for L <= 40 (N <= 64,000); a million-spin droplet-feasible ceiling probe at L = 100 reaches E/E_LB = 0.5581. The DSC-3 ensemble beats matched compute-intensity SA-only by +6-7% on 3D EA and +0.13-0.37% (sigma <= 0.02%) on fully-connected MaxCut up to N = 10,000. Cost ratio is 10^4-10^5 cheaper per solve; capex ratio is 10^6 per machine. The paper identifies a 'Benchmark Gap' in D-Wave's published references and releases all artefacts (instances, per-instance wall-times, baselines, work splits) with SHA-256 manifest."
+authors:
+  - family-names: Daugherty
+    given-names: Bryan W.
+    affiliation: Origin Neural
+  - family-names: Ward
+    given-names: Gregory
+    affiliation: Origin Neural
+  - family-names: Ryan
+    given-names: Shawn
+    affiliation: Origin Neural
+date-released: 2026-05-14
+version: v0.15.1-paper
+url: "https://github.com/OriginNeuralAI/DSC3-DWave-Comparison-2026"
+repository-code: "https://github.com/OriginNeuralAI/DSC3-DWave-Comparison-2026"
+keywords:
+  - quantum-annealing
+  - d-wave
+  - ising-model
+  - 3d-spin-glass
+  - hartmann
+  - benchmarks
+  - reproducibility
+  - sha-256
+  - maxcut
+  - simulated-annealing
+  - classical-optimization
+license: CC-BY-4.0
