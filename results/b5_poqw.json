@@ -1,0 +1,19 @@
+{
+  "benchmark": "D-Wave B5: Proof of Quantum Work via reduced-round SHA-256 preimage",
+  "preset": "fast",
+  "plaintext_len": 4,
+  "per_seed": [
+    {"rounds": 4, "seed": 0, "n_vars": 11816, "wall_s": 32.979097, "energy": -5609.333333, "target_hash": "d64e2ee24bf9cdd3f741d8ecfa1fc7d8805c71029d3ecabf5deaa0864d6ffa0c", "solver": "CVTR"},
+    {"rounds": 4, "seed": 1, "n_vars": 11816, "wall_s": 32.905600, "energy": -5611.000000, "target_hash": "f7abbc9d260ff9e9a4364bc1ab3ce13d0028f0a4525ba07885791ef5fe8d1371", "solver": "CVTR"},
+    {"rounds": 4, "seed": 2, "n_vars": 11816, "wall_s": 32.988996, "energy": -5609.333333, "target_hash": "3b213fca541a1e644d66e0da5b59f9a2aa0e04db0c4ac5e28c08808eaeaa2bd6", "solver": "CVTR"},
+    {"rounds": 4, "seed": 3, "n_vars": 11816, "wall_s": 32.913406, "energy": -5609.333333, "target_hash": "ddf50d4abd4dcbf1fca2d1260c7713077a700971e35330a5852930355fc7453b", "solver": "CVTR"},
+    {"rounds": 6, "seed": 0, "n_vars": 16212, "wall_s": 33.951755, "energy": -7691.333333, "target_hash": "d44043a1b70bdb63a8b33bed35e2148834e5dadda8bb7d014ed1f82e5e1a2f4c", "solver": "CVTR"},
+    {"rounds": 6, "seed": 1, "n_vars": 16212, "wall_s": 34.294892, "energy": -7683.000000, "target_hash": "21ea22e263cec7bdca10c9a80ff8409e485c243e443350acce9e77d013370505", "solver": "CVTR"},
+    {"rounds": 6, "seed": 2, "n_vars": 16212, "wall_s": 34.146709, "energy": -7684.666667, "target_hash": "c6dbd008f3f4f2b80d864cd53e0265194b96829196a6721678838c07cd262a6f", "solver": "CVTR"},
+    {"rounds": 6, "seed": 3, "n_vars": 16212, "wall_s": 33.855191, "energy": -7688.000000, "target_hash": "5d4dd1c375047625b05a1a55a73612a6721b93c7326b54e748e5909da42e9532", "solver": "CVTR"},
+    {"rounds": 8, "seed": 0, "n_vars": 20608, "wall_s": 35.938938, "energy": -9767.666667, "target_hash": "5f1bc9350d6431a0a6a550aca0f42218f806ae4969458f27035b62096996e18e", "solver": "CVTR"},
+    {"rounds": 8, "seed": 1, "n_vars": 20608, "wall_s": 35.820578, "energy": -9756.000000, "target_hash": "d9ec5b61599db336f44f2fed4db70e72f618ca92672e3da716d1ab6a050eb539", "solver": "CVTR"},
+    {"rounds": 8, "seed": 2, "n_vars": 20608, "wall_s": 35.962517, "energy": -9757.666667, "target_hash": "7d3c39237dbeec3f9940dd13dddd396ddacd5a0d3fe1b36e1a0c09bd5781d6a3", "solver": "CVTR"},
+    {"rounds": 8, "seed": 3, "n_vars": 20608, "wall_s": 36.650055, "energy": -9772.666667, "target_hash": "cd2ff3fd8be19bde2fb2dece5eecbcda3d5ff7c80fff786c40911af3f346b974", "solver": "CVTR"}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "benchmark": "D-Wave B1: 3D cubic Edwards-Anderson spin glass (PBC)",
+  "reference": "King et al., Science 2025 / arXiv 2403.00910",
+  "preset": "fast",
+  "seeds": [0, 1, 2, 3],
+  "engine_version": "0.15.0",
+  "unix_timestamp": 1778682666,
+  "aggregated": [
+    {"L": 4, "N": 64, "lower_bound": -192.000000, "best_energy": -66.000000, "median_energy": -52.000000, "mean_energy": -54.500000, "std_energy": 7.262920, "worst_energy": -46.000000, "best_wall_s": 0.007229, "median_wall_s": 0.008432, "mean_wall_s": 0.007925, "std_wall_s": 0.000635, "worst_wall_s": 0.008674, "median_gs_ratio": 0.281250, "mean_gs_ratio": 0.283854, "std_gs_ratio": 0.037828}
+  ],
+  "per_seed": [
+    {"L": 4, "N": 64, "seed": 0, "gen_ms": 0.037, "wall_s": 0.008674, "energy": -52.000000, "lower_bound": -192.000000, "gs_ratio": 0.270833, "solver": "Kuramoto", "i_value": 0.1364},
+    {"L": 4, "N": 64, "seed": 1, "gen_ms": 0.032, "wall_s": 0.007364, "energy": -66.000000, "lower_bound": -192.000000, "gs_ratio": 0.343750, "solver": "SOLG", "i_value": 0.1364},
+    {"L": 4, "N": 64, "seed": 2, "gen_ms": 0.033, "wall_s": 0.008432, "energy": -46.000000, "lower_bound": -192.000000, "gs_ratio": 0.239583, "solver": "HDC", "i_value": 0.1364},
+    {"L": 4, "N": 64, "seed": 3, "gen_ms": 0.024, "wall_s": 0.007229, "energy": -54.000000, "lower_bound": -192.000000, "gs_ratio": 0.281250, "solver": "Evolutionary", "i_value": 0.1364}
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "benchmark": "D-Wave B1: 3D cubic Edwards-Anderson spin glass (PBC)",
+  "reference": "King et al., Science 2025 / arXiv 2403.00910",
+  "preset": "production",
+  "seeds": [0, 1, 2, 3],
+  "engine_version": "0.15.0",
+  "unix_timestamp": 1778691590,
+  "aggregated": [
+    {"L": 14, "N": 2744, "lower_bound": -8232.000000, "best_energy": -4882.000000, "median_energy": -4814.000000, "mean_energy": -4839.500000, "std_energy": 33.626626, "worst_energy": -4800.000000, "best_wall_s": 95.817300, "median_wall_s": 99.246496, "mean_wall_s": 98.335784, "std_wall_s": 1.908576, "worst_wall_s": 100.886957, "median_gs_ratio": 0.590622, "mean_gs_ratio": 0.587889, "std_gs_ratio": 0.004085},
+    {"L": 16, "N": 4096, "lower_bound": -12288.000000, "best_energy": -7276.000000, "median_energy": -7216.000000, "mean_energy": -7243.500000, "std_energy": 32.691742, "worst_energy": -7206.000000, "best_wall_s": 153.254836, "median_wall_s": 154.308002, "mean_wall_s": 153.933395, "std_wall_s": 0.606990, "worst_wall_s": 154.728326, "median_gs_ratio": 0.592122, "mean_gs_ratio": 0.589478, "std_gs_ratio": 0.002660},
+    {"L": 18, "N": 5832, "lower_bound": -17496.000000, "best_energy": -10318.000000, "median_energy": -10300.000000, "mean_energy": -10305.000000, "std_energy": 14.177447, "worst_energy": -10284.000000, "best_wall_s": 226.491904, "median_wall_s": 230.636620, "mean_wall_s": 229.346975, "std_wall_s": 1.707124, "worst_wall_s": 230.685201, "median_gs_ratio": 0.589735, "mean_gs_ratio": 0.588992, "std_gs_ratio": 0.000810},
+    {"L": 20, "N": 8000, "lower_bound": -24000.000000, "best_energy": -14192.000000, "median_energy": -14142.000000, "mean_energy": -14162.000000, "std_energy": 24.535688, "worst_energy": -14134.000000, "best_wall_s": 247.961801, "median_wall_s": 250.199807, "mean_wall_s": 249.518912, "std_wall_s": 0.933149, "worst_wall_s": 250.281809, "median_gs_ratio": 0.590833, "mean_gs_ratio": 0.590083, "std_gs_ratio": 0.001022}
+  ],
+  "per_seed": [
+    {"L": 14, "N": 2744, "seed": 0, "gen_ms": 20.697, "wall_s": 100.886957, "energy": -4814.000000, "lower_bound": -8232.000000, "gs_ratio": 0.584791, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -4522.000000, "sa_only_wall_s": 0.020116},
+    {"L": 14, "N": 2744, "seed": 1, "gen_ms": 16.729, "wall_s": 97.392384, "energy": -4882.000000, "lower_bound": -8232.000000, "gs_ratio": 0.593052, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -4562.000000, "sa_only_wall_s": 0.020085},
+    {"L": 14, "N": 2744, "seed": 2, "gen_ms": 16.828, "wall_s": 99.246496, "energy": -4800.000000, "lower_bound": -8232.000000, "gs_ratio": 0.583090, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -4488.000000, "sa_only_wall_s": 0.020450},
+    {"L": 14, "N": 2744, "seed": 3, "gen_ms": 16.045, "wall_s": 95.817300, "energy": -4862.000000, "lower_bound": -8232.000000, "gs_ratio": 0.590622, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -4538.000000, "sa_only_wall_s": 0.019905},
+    {"L": 16, "N": 4096, "seed": 0, "gen_ms": 36.895, "wall_s": 154.308002, "energy": -7276.000000, "lower_bound": -12288.000000, "gs_ratio": 0.592122, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -6796.000000, "sa_only_wall_s": 0.040252},
+    {"L": 16, "N": 4096, "seed": 1, "gen_ms": 35.214, "wall_s": 154.728326, "energy": -7216.000000, "lower_bound": -12288.000000, "gs_ratio": 0.587240, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -6728.000000, "sa_only_wall_s": 0.052321},
+    {"L": 16, "N": 4096, "seed": 2, "gen_ms": 53.170, "wall_s": 153.254836, "energy": -7206.000000, "lower_bound": -12288.000000, "gs_ratio": 0.586426, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -6734.000000, "sa_only_wall_s": 0.040295},
+    {"L": 16, "N": 4096, "seed": 3, "gen_ms": 36.057, "wall_s": 153.442417, "energy": -7276.000000, "lower_bound": -12288.000000, "gs_ratio": 0.592122, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -6732.000000, "sa_only_wall_s": 0.042660},
+    {"L": 18, "N": 5832, "seed": 0, "gen_ms": 76.043, "wall_s": 230.685201, "energy": -10318.000000, "lower_bound": -17496.000000, "gs_ratio": 0.589735, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -9578.000000, "sa_only_wall_s": 0.074844},
+    {"L": 18, "N": 5832, "seed": 1, "gen_ms": 73.969, "wall_s": 229.574175, "energy": -10284.000000, "lower_bound": -17496.000000, "gs_ratio": 0.587791, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -9592.000000, "sa_only_wall_s": 0.077009},
+    {"L": 18, "N": 5832, "seed": 2, "gen_ms": 75.599, "wall_s": 230.636620, "energy": -10300.000000, "lower_bound": -17496.000000, "gs_ratio": 0.588706, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -9584.000000, "sa_only_wall_s": 0.074907},
+    {"L": 18, "N": 5832, "seed": 3, "gen_ms": 71.187, "wall_s": 226.491904, "energy": -10318.000000, "lower_bound": -17496.000000, "gs_ratio": 0.589735, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -9618.000000, "sa_only_wall_s": 0.075441},
+    {"L": 20, "N": 8000, "seed": 0, "gen_ms": 132.699, "wall_s": 250.199807, "energy": -14142.000000, "lower_bound": -24000.000000, "gs_ratio": 0.589250, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -13278.000000, "sa_only_wall_s": 0.125417},
+    {"L": 20, "N": 8000, "seed": 1, "gen_ms": 133.197, "wall_s": 247.961801, "energy": -14134.000000, "lower_bound": -24000.000000, "gs_ratio": 0.588917, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -13218.000000, "sa_only_wall_s": 0.126346},
+    {"L": 20, "N": 8000, "seed": 2, "gen_ms": 130.513, "wall_s": 250.281809, "energy": -14192.000000, "lower_bound": -24000.000000, "gs_ratio": 0.591333, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -13180.000000, "sa_only_wall_s": 0.125960},
+    {"L": 20, "N": 8000, "seed": 3, "gen_ms": 133.126, "wall_s": 249.632232, "energy": -14180.000000, "lower_bound": -24000.000000, "gs_ratio": 0.590833, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -13228.000000, "sa_only_wall_s": 0.126279}
+  ]
+}

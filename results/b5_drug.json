@@ -1,0 +1,20 @@
+{
+  "benchmark": "D-Wave B5: Drug-discovery fragment selection QUBO",
+  "reference": "JT/D-Wave press release Jan 2026; MDPI Quantum Reports 6(1):2",
+  "preset": "quality",
+  "K": 5,
+  "per_seed": [
+    {"N": 15, "K": 5, "seed": 0, "wall_s": 1.806288, "valid": true, "dsc3_value": 8.257106, "exact_value": 8.415371, "gap_pct": -1.8807, "solver": "SA"},
+    {"N": 15, "K": 5, "seed": 1, "wall_s": 3.634024, "valid": true, "dsc3_value": 10.129360, "exact_value": 10.129360, "gap_pct": 0.0000, "solver": "SA"},
+    {"N": 15, "K": 5, "seed": 2, "wall_s": 1.801033, "valid": true, "dsc3_value": 7.892820, "exact_value": 8.294230, "gap_pct": -4.8396, "solver": "SA"},
+    {"N": 15, "K": 5, "seed": 3, "wall_s": 3.396151, "valid": true, "dsc3_value": 6.824455, "exact_value": 7.108416, "gap_pct": -3.9947, "solver": "SA"},
+    {"N": 20, "K": 5, "seed": 0, "wall_s": 2.212096, "valid": true, "dsc3_value": 10.585495, "exact_value": 10.988356, "gap_pct": -3.6662, "solver": "SA"},
+    {"N": 20, "K": 5, "seed": 1, "wall_s": 2.265092, "valid": true, "dsc3_value": 12.217617, "exact_value": 12.450158, "gap_pct": -1.8678, "solver": "SA"},
+    {"N": 20, "K": 5, "seed": 2, "wall_s": 4.294313, "valid": true, "dsc3_value": 10.245989, "exact_value": 10.610777, "gap_pct": -3.4379, "solver": "SA"},
+    {"N": 20, "K": 5, "seed": 3, "wall_s": 2.243223, "valid": true, "dsc3_value": 8.174293, "exact_value": 8.515940, "gap_pct": -4.0119, "solver": "SASSHA"},
+    {"N": 25, "K": 5, "seed": 0, "wall_s": 5.297731, "valid": true, "dsc3_value": 14.478108, "exact_value": 14.502318, "gap_pct": -0.1669, "solver": "SA"},
+    {"N": 25, "K": 5, "seed": 1, "wall_s": 2.743194, "valid": true, "dsc3_value": 14.991454, "exact_value": 15.561636, "gap_pct": -3.6640, "solver": "SA"},
+    {"N": 25, "K": 5, "seed": 2, "wall_s": 5.238399, "valid": true, "dsc3_value": 13.380842, "exact_value": 13.380842, "gap_pct": 0.0000, "solver": "SA"},
+    {"N": 25, "K": 5, "seed": 3, "wall_s": 2.732804, "valid": true, "dsc3_value": 9.412645, "exact_value": 9.525025, "gap_pct": -1.1798, "solver": "SASSHA"}
+  ]
+}

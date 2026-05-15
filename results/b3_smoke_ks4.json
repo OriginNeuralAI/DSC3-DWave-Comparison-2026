@@ -1,0 +1,23 @@
+{
+  "benchmark": "D-Wave B3: Stride Hybrid Solver suite (TSP, MaxCut, Knapsack)",
+  "reference": "Booth et al., arXiv 2410.07980",
+  "preset": "production",
+  "seeds": [0, 1, 2],
+  "per_instance": [
+    {"problem": "Knapsack", "id": "n10_s0_w30/30", "n_vars": 15, "seed": 0, "wall_s": 0.348453, "dsc3": 28.774078, "dsc3_polished": 28.774078, "baseline": 28.105213, "valid": true, "solver": "HDC", "gap_pct": 2.3799},
+    {"problem": "Knapsack", "id": "n10_s1_w29/30", "n_vars": 15, "seed": 1, "wall_s": 0.356883, "dsc3": 34.558665, "dsc3_polished": 34.558665, "baseline": 37.929126, "valid": true, "solver": "Evolutionary", "gap_pct": -8.8862},
+    {"problem": "Knapsack", "id": "n10_s2_w24/27", "n_vars": 15, "seed": 2, "wall_s": 0.366939, "dsc3": 40.346377, "dsc3_polished": 40.346377, "baseline": 44.170155, "valid": true, "solver": "Evolutionary", "gap_pct": -8.6569},
+    {"problem": "Knapsack", "id": "n20_s0_w55/66", "n_vars": 27, "seed": 0, "wall_s": 0.580819, "dsc3": 58.563778, "dsc3_polished": 58.563778, "baseline": 69.281554, "valid": true, "solver": "Evolutionary", "gap_pct": -15.4699},
+    {"problem": "Knapsack", "id": "n20_s1_w44/55", "n_vars": 26, "seed": 1, "wall_s": 0.595355, "dsc3": 74.385636, "dsc3_polished": 74.385636, "baseline": 87.866451, "valid": true, "solver": "Evolutionary", "gap_pct": -15.3424},
+    {"problem": "Knapsack", "id": "n20_s2_w50/51", "n_vars": 26, "seed": 2, "wall_s": 0.576463, "dsc3": 62.047604, "dsc3_polished": 62.047604, "baseline": 67.879468, "valid": true, "solver": "Evolutionary", "gap_pct": -8.5915},
+    {"problem": "Knapsack", "id": "n30_s0_w99/99", "n_vars": 37, "seed": 0, "wall_s": 0.823564, "dsc3": 98.665303, "dsc3_polished": 98.665303, "baseline": 116.904398, "valid": true, "solver": "Evolutionary", "gap_pct": -15.6017},
+    {"problem": "Knapsack", "id": "n30_s1_w79/82", "n_vars": 37, "seed": 1, "wall_s": 0.761060, "dsc3": 97.042341, "dsc3_polished": 97.042341, "baseline": 117.782950, "valid": true, "solver": "Evolutionary", "gap_pct": -17.6092},
+    {"problem": "Knapsack", "id": "n30_s2_w83/83", "n_vars": 37, "seed": 2, "wall_s": 0.768692, "dsc3": 105.956810, "dsc3_polished": 105.956810, "baseline": 132.468084, "valid": true, "solver": "Evolutionary", "gap_pct": -20.0133},
+    {"problem": "Knapsack", "id": "n40_s0_w123/128", "n_vars": 48, "seed": 0, "wall_s": 0.915174, "dsc3": 154.865223, "dsc3_polished": 154.865223, "baseline": 194.038019, "valid": true, "solver": "Evolutionary", "gap_pct": -20.1882},
+    {"problem": "Knapsack", "id": "n40_s1_w110/110", "n_vars": 47, "seed": 1, "wall_s": 0.943808, "dsc3": 146.106811, "dsc3_polished": 146.106811, "baseline": 170.413588, "valid": true, "solver": "Evolutionary", "gap_pct": -14.2634},
+    {"problem": "Knapsack", "id": "n40_s2_w107/110", "n_vars": 47, "seed": 2, "wall_s": 0.963708, "dsc3": 156.712032, "dsc3_polished": 156.712032, "baseline": 190.446217, "valid": true, "solver": "Evolutionary", "gap_pct": -17.7132},
+    {"problem": "Knapsack", "id": "n50_s0_w136/155", "n_vars": 58, "seed": 0, "wall_s": 1.173452, "dsc3": 181.183574, "dsc3_polished": 181.183574, "baseline": 231.584843, "valid": true, "solver": "Evolutionary", "gap_pct": -21.7636},
+    {"problem": "Knapsack", "id": "n50_s1_w136/137", "n_vars": 58, "seed": 1, "wall_s": 1.185807, "dsc3": 190.504164, "dsc3_polished": 190.504164, "baseline": 216.557432, "valid": true, "solver": "Evolutionary", "gap_pct": -12.0307},
+    {"problem": "Knapsack", "id": "n50_s2_w126/132", "n_vars": 58, "seed": 2, "wall_s": 1.176462, "dsc3": 188.104514, "dsc3_polished": 188.104514, "baseline": 224.554779, "valid": true, "solver": "Evolutionary", "gap_pct": -16.2322}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "benchmark": "D-Wave B1: 3D cubic Edwards-Anderson spin glass (PBC)",
+  "reference": "King et al., Science 2025 / arXiv 2403.00910",
+  "preset": "fast",
+  "seeds": [0],
+  "engine_version": "0.15.0",
+  "unix_timestamp": 1778697523,
+  "aggregated": [
+    {"L": 6, "N": 216, "lower_bound": -648.000000, "best_energy": -370.000000, "median_energy": -370.000000, "mean_energy": -370.000000, "std_energy": 0.000000, "worst_energy": -370.000000, "best_wall_s": 0.350158, "median_wall_s": 0.350158, "mean_wall_s": 0.350158, "std_wall_s": 0.000000, "worst_wall_s": 0.350158, "median_gs_ratio": 0.570988, "mean_gs_ratio": 0.570988, "std_gs_ratio": 0.000000}
+  ],
+  "per_seed": [
+    {"L": 6, "N": 216, "seed": 0, "gen_ms": 0.061, "wall_s": 0.350158, "energy": -370.000000, "lower_bound": -648.000000, "gs_ratio": 0.570988, "solver": "SOLG", "i_value": 1.0000, "sa_only_energy": null, "sa_only_wall_s": null}
+  ]
+}

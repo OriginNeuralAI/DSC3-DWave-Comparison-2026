@@ -1,0 +1,16 @@
+{
+  "benchmark": "D-Wave B2: Currency Arbitrage TSP-style QUBO",
+  "reference": "Cococcioni et al., arXiv 2509.22591",
+  "preset": "production",
+  "profit_pct_planted": 8,
+  "per_seed": [
+    {"N": 10, "N_vars": 100, "seed": 0, "wall_s": 1.711259, "valid_tour": true, "cycle_len": 10, "rate_product": 1.173590, "profit_pct_found": 17.3590, "solver": "HDC"},
+    {"N": 10, "N_vars": 100, "seed": 1, "wall_s": 1.698407, "valid_tour": false, "cycle_len": 0, "rate_product": 1.000000, "profit_pct_found": 0.0000, "solver": "SolverMorph"},
+    {"N": 10, "N_vars": 100, "seed": 2, "wall_s": 1.704007, "valid_tour": false, "cycle_len": 0, "rate_product": 1.000000, "profit_pct_found": 0.0000, "solver": "SolverMorph"},
+    {"N": 10, "N_vars": 100, "seed": 3, "wall_s": 1.697119, "valid_tour": true, "cycle_len": 10, "rate_product": 1.154264, "profit_pct_found": 15.4264, "solver": "CVTR"},
+    {"N": 12, "N_vars": 144, "seed": 0, "wall_s": 2.765218, "valid_tour": false, "cycle_len": 0, "rate_product": 1.000000, "profit_pct_found": 0.0000, "solver": "SolverMorph"},
+    {"N": 12, "N_vars": 144, "seed": 1, "wall_s": 2.713061, "valid_tour": false, "cycle_len": 0, "rate_product": 1.000000, "profit_pct_found": 0.0000, "solver": "SolverMorph"},
+    {"N": 12, "N_vars": 144, "seed": 2, "wall_s": 2.643293, "valid_tour": true, "cycle_len": 12, "rate_product": 1.220899, "profit_pct_found": 22.0899, "solver": "CVTR"},
+    {"N": 12, "N_vars": 144, "seed": 3, "wall_s": 2.708617, "valid_tour": true, "cycle_len": 12, "rate_product": 1.212077, "profit_pct_found": 21.2077, "solver": "Evolutionary"}
+  ]
+}

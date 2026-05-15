@@ -1,0 +1,23 @@
+{
+  "benchmark": "D-Wave B3: Stride Hybrid Solver suite (TSP, MaxCut, Knapsack)",
+  "reference": "Booth et al., arXiv 2410.07980",
+  "preset": "production",
+  "seeds": [0, 1, 2],
+  "per_instance": [
+    {"problem": "Knapsack", "id": "n10_s0_w52/30", "n_vars": 15, "seed": 0, "wall_s": 0.349878, "dsc3": 0.000000, "dsc3_polished": 22.925505, "baseline": 28.105213, "valid": false, "solver": "SASSHA", "gap_pct": -18.4297},
+    {"problem": "Knapsack", "id": "n10_s1_w41/30", "n_vars": 15, "seed": 1, "wall_s": 0.316456, "dsc3": 0.000000, "dsc3_polished": 37.929126, "baseline": 37.929126, "valid": false, "solver": "SASSHA", "gap_pct": 0.0000},
+    {"problem": "Knapsack", "id": "n10_s2_w47/27", "n_vars": 15, "seed": 2, "wall_s": 0.353652, "dsc3": 0.000000, "dsc3_polished": 41.015544, "baseline": 44.170155, "valid": false, "solver": "SA", "gap_pct": -7.1420},
+    {"problem": "Knapsack", "id": "n20_s0_w112/66", "n_vars": 27, "seed": 0, "wall_s": 0.499257, "dsc3": 0.000000, "dsc3_polished": 69.281554, "baseline": 69.281554, "valid": false, "solver": "DMM", "gap_pct": -0.0000},
+    {"problem": "Knapsack", "id": "n20_s1_w90/55", "n_vars": 26, "seed": 1, "wall_s": 0.499223, "dsc3": 0.000000, "dsc3_polished": 87.866451, "baseline": 87.866451, "valid": false, "solver": "HDC", "gap_pct": 0.0000},
+    {"problem": "Knapsack", "id": "n20_s2_w94/51", "n_vars": 26, "seed": 2, "wall_s": 0.526842, "dsc3": 0.000000, "dsc3_polished": 67.879468, "baseline": 67.879468, "valid": false, "solver": "HDC", "gap_pct": 0.0000},
+    {"problem": "Knapsack", "id": "n30_s0_w179/99", "n_vars": 37, "seed": 0, "wall_s": 0.657962, "dsc3": 0.000000, "dsc3_polished": 116.904398, "baseline": 116.904398, "valid": false, "solver": "SA", "gap_pct": -0.0000},
+    {"problem": "Knapsack", "id": "n30_s1_w145/82", "n_vars": 37, "seed": 1, "wall_s": 0.658166, "dsc3": 0.000000, "dsc3_polished": 117.782950, "baseline": 117.782950, "valid": false, "solver": "Evolutionary", "gap_pct": 0.0000},
+    {"problem": "Knapsack", "id": "n30_s2_w157/83", "n_vars": 37, "seed": 2, "wall_s": 0.660351, "dsc3": 0.000000, "dsc3_polished": 132.468084, "baseline": 132.468084, "valid": false, "solver": "SASSHA", "gap_pct": -0.0000},
+    {"problem": "Knapsack", "id": "n40_s0_w236/128", "n_vars": 48, "seed": 0, "wall_s": 0.891633, "dsc3": 0.000000, "dsc3_polished": 194.038019, "baseline": 194.038019, "valid": false, "solver": "CVTR", "gap_pct": 0.0000},
+    {"problem": "Knapsack", "id": "n40_s1_w201/110", "n_vars": 47, "seed": 1, "wall_s": 0.832696, "dsc3": 0.000000, "dsc3_polished": 170.413588, "baseline": 170.413588, "valid": false, "solver": "Evolutionary", "gap_pct": 0.0000},
+    {"problem": "Knapsack", "id": "n40_s2_w200/110", "n_vars": 47, "seed": 2, "wall_s": 0.873375, "dsc3": 0.000000, "dsc3_polished": 188.911717, "baseline": 190.446217, "valid": false, "solver": "DMM", "gap_pct": -0.8057},
+    {"problem": "Knapsack", "id": "n50_s0_w291/155", "n_vars": 58, "seed": 0, "wall_s": 1.010768, "dsc3": 0.000000, "dsc3_polished": 226.936137, "baseline": 231.584843, "valid": false, "solver": "Evolutionary", "gap_pct": -2.0073},
+    {"problem": "Knapsack", "id": "n50_s1_w255/137", "n_vars": 58, "seed": 1, "wall_s": 1.088401, "dsc3": 0.000000, "dsc3_polished": 211.922595, "baseline": 216.557432, "valid": false, "solver": "DMM", "gap_pct": -2.1402},
+    {"problem": "Knapsack", "id": "n50_s2_w245/132", "n_vars": 58, "seed": 2, "wall_s": 1.042910, "dsc3": 0.000000, "dsc3_polished": 219.690152, "baseline": 224.554779, "valid": false, "solver": "LagONN", "gap_pct": -2.1663}
+  ]
+}

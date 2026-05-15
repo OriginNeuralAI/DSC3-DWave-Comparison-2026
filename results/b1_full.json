@@ -1,0 +1,37 @@
+{
+  "benchmark": "D-Wave B1: 3D cubic Edwards-Anderson spin glass (PBC)",
+  "reference": "King et al., Science 2025 / arXiv 2403.00910",
+  "preset": "production",
+  "seeds": [0, 1, 2, 3],
+  "engine_version": "0.15.0",
+  "unix_timestamp": 1778683556,
+  "aggregated": [
+    {"L": 4, "N": 64, "lower_bound": -192.000000, "best_energy": -112.000000, "median_energy": -110.000000, "mean_energy": -110.500000, "std_energy": 0.866025, "worst_energy": -110.000000, "best_wall_s": 0.790248, "median_wall_s": 0.822307, "mean_wall_s": 0.811898, "std_wall_s": 0.017830, "worst_wall_s": 0.835286, "median_gs_ratio": 0.572917, "mean_gs_ratio": 0.575521, "std_gs_ratio": 0.004511},
+    {"L": 6, "N": 216, "lower_bound": -648.000000, "best_energy": -390.000000, "median_energy": -378.000000, "mean_energy": -382.000000, "std_energy": 4.898979, "worst_energy": -378.000000, "best_wall_s": 2.695828, "median_wall_s": 2.751901, "mean_wall_s": 2.753824, "std_wall_s": 0.045362, "worst_wall_s": 2.822954, "median_gs_ratio": 0.589506, "mean_gs_ratio": 0.589506, "std_gs_ratio": 0.007560},
+    {"L": 8, "N": 512, "lower_bound": -1536.000000, "best_energy": -912.000000, "median_energy": -910.000000, "mean_energy": -906.500000, "std_energy": 7.262920, "worst_energy": -894.000000, "best_wall_s": 10.177544, "median_wall_s": 10.560592, "mean_wall_s": 10.533563, "std_wall_s": 0.307791, "worst_wall_s": 11.012178, "median_gs_ratio": 0.592448, "mean_gs_ratio": 0.590169, "std_gs_ratio": 0.004728},
+    {"L": 10, "N": 1000, "lower_bound": -3000.000000, "best_energy": -1778.000000, "median_energy": -1760.000000, "mean_energy": -1763.000000, "std_energy": 16.031220, "worst_energy": -1738.000000, "best_wall_s": 25.769588, "median_wall_s": 28.420088, "mean_wall_s": 27.742858, "std_wall_s": 1.144510, "worst_wall_s": 28.544697, "median_gs_ratio": 0.592000, "mean_gs_ratio": 0.587667, "std_gs_ratio": 0.005344},
+    {"L": 12, "N": 1728, "lower_bound": -5184.000000, "best_energy": -3056.000000, "median_energy": -3048.000000, "mean_energy": -3044.000000, "std_energy": 13.038405, "worst_energy": -3022.000000, "best_wall_s": 55.231379, "median_wall_s": 55.681567, "mean_wall_s": 55.876006, "std_wall_s": 0.698907, "worst_wall_s": 57.053337, "median_gs_ratio": 0.588349, "mean_gs_ratio": 0.587191, "std_gs_ratio": 0.002515}
+  ],
+  "per_seed": [
+    {"L": 4, "N": 64, "seed": 0, "gen_ms": 0.025, "wall_s": 0.790248, "energy": -112.000000, "lower_bound": -192.000000, "gs_ratio": 0.583333, "solver": "PT-SBM", "i_value": 1.0000},
+    {"L": 4, "N": 64, "seed": 1, "gen_ms": 0.022, "wall_s": 0.799749, "energy": -110.000000, "lower_bound": -192.000000, "gs_ratio": 0.572917, "solver": "PT-SBM", "i_value": 1.0000},
+    {"L": 4, "N": 64, "seed": 2, "gen_ms": 0.011, "wall_s": 0.822307, "energy": -110.000000, "lower_bound": -192.000000, "gs_ratio": 0.572917, "solver": "PT-SBM", "i_value": 1.0000},
+    {"L": 4, "N": 64, "seed": 3, "gen_ms": 0.011, "wall_s": 0.835286, "energy": -110.000000, "lower_bound": -192.000000, "gs_ratio": 0.572917, "solver": "PT-SBM", "i_value": 1.0000},
+    {"L": 6, "N": 216, "seed": 0, "gen_ms": 0.149, "wall_s": 2.695828, "energy": -382.000000, "lower_bound": -648.000000, "gs_ratio": 0.589506, "solver": "PT-SBM", "i_value": 1.0000},
+    {"L": 6, "N": 216, "seed": 1, "gen_ms": 0.166, "wall_s": 2.751901, "energy": -390.000000, "lower_bound": -648.000000, "gs_ratio": 0.601852, "solver": "CIM", "i_value": 1.0000},
+    {"L": 6, "N": 216, "seed": 2, "gen_ms": 0.090, "wall_s": 2.744613, "energy": -378.000000, "lower_bound": -648.000000, "gs_ratio": 0.583333, "solver": "PT-SBM", "i_value": 1.0000},
+    {"L": 6, "N": 216, "seed": 3, "gen_ms": 0.078, "wall_s": 2.822954, "energy": -378.000000, "lower_bound": -648.000000, "gs_ratio": 0.583333, "solver": "SolverMorph", "i_value": 1.0000},
+    {"L": 8, "N": 512, "seed": 0, "gen_ms": 1.155, "wall_s": 10.177544, "energy": -912.000000, "lower_bound": -1536.000000, "gs_ratio": 0.593750, "solver": "SBM", "i_value": 1.0000},
+    {"L": 8, "N": 512, "seed": 1, "gen_ms": 0.948, "wall_s": 11.012178, "energy": -910.000000, "lower_bound": -1536.000000, "gs_ratio": 0.592448, "solver": "SolverMorph", "i_value": 1.0000},
+    {"L": 8, "N": 512, "seed": 2, "gen_ms": 0.479, "wall_s": 10.560592, "energy": -910.000000, "lower_bound": -1536.000000, "gs_ratio": 0.592448, "solver": "SolverMorph", "i_value": 1.0000},
+    {"L": 8, "N": 512, "seed": 3, "gen_ms": 0.479, "wall_s": 10.383936, "energy": -894.000000, "lower_bound": -1536.000000, "gs_ratio": 0.582031, "solver": "SolverMorph", "i_value": 1.0000},
+    {"L": 10, "N": 1000, "seed": 0, "gen_ms": 3.614, "wall_s": 28.420088, "energy": -1760.000000, "lower_bound": -3000.000000, "gs_ratio": 0.586667, "solver": "SolverMorph", "i_value": 1.0000},
+    {"L": 10, "N": 1000, "seed": 1, "gen_ms": 2.362, "wall_s": 28.237060, "energy": -1776.000000, "lower_bound": -3000.000000, "gs_ratio": 0.592000, "solver": "SolverMorph", "i_value": 1.0000},
+    {"L": 10, "N": 1000, "seed": 2, "gen_ms": 2.830, "wall_s": 25.769588, "energy": -1778.000000, "lower_bound": -3000.000000, "gs_ratio": 0.592667, "solver": "SolverMorph", "i_value": 1.0000},
+    {"L": 10, "N": 1000, "seed": 3, "gen_ms": 2.293, "wall_s": 28.544697, "energy": -1738.000000, "lower_bound": -3000.000000, "gs_ratio": 0.579333, "solver": "SBM", "i_value": 1.0000},
+    {"L": 12, "N": 1728, "seed": 0, "gen_ms": 8.857, "wall_s": 55.231379, "energy": -3048.000000, "lower_bound": -5184.000000, "gs_ratio": 0.587963, "solver": "SolverMorph", "i_value": 1.0000},
+    {"L": 12, "N": 1728, "seed": 1, "gen_ms": 7.559, "wall_s": 57.053337, "energy": -3056.000000, "lower_bound": -5184.000000, "gs_ratio": 0.589506, "solver": "SolverMorph", "i_value": 1.0000},
+    {"L": 12, "N": 1728, "seed": 2, "gen_ms": 9.941, "wall_s": 55.681567, "energy": -3022.000000, "lower_bound": -5184.000000, "gs_ratio": 0.582948, "solver": "SolverMorph", "i_value": 1.0000},
+    {"L": 12, "N": 1728, "seed": 3, "gen_ms": 6.991, "wall_s": 55.537741, "energy": -3050.000000, "lower_bound": -5184.000000, "gs_ratio": 0.588349, "solver": "SolverMorph", "i_value": 1.0000}
+  ]
+}

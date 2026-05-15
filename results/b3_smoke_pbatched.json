@@ -1,0 +1,12 @@
+{
+  "benchmark": "D-Wave B3: Stride Hybrid Solver suite (TSP, MaxCut, Knapsack)",
+  "reference": "Booth et al., arXiv 2410.07980",
+  "preset": "fast",
+  "seeds": [0],
+  "per_instance": [
+    {"problem": "MaxCut", "id": "er_n100_d0.30_s0_sa861_rand703", "n_vars": 100, "seed": 0, "wall_s": 0.928917, "dsc3": 865.000000, "dsc3_polished": 865.000000, "baseline": 861.000000, "valid": true, "solver": "PT-SBM", "gap_pct": 0.4646},
+    {"problem": "MaxCut", "id": "er_n100_d0.50_s0_sa1392_rand1222", "n_vars": 100, "seed": 0, "wall_s": 0.881627, "dsc3": 1399.000000, "dsc3_polished": 1399.000000, "baseline": 1392.000000, "valid": true, "solver": "SolverMorph", "gap_pct": 0.5029},
+    {"problem": "MaxCut", "id": "er_n500_d0.30_s0_sa20494_rand18805", "n_vars": 500, "seed": 0, "wall_s": 2.176964, "dsc3": 20571.000000, "dsc3_polished": 20571.000000, "baseline": 20494.000000, "valid": true, "solver": "CIM", "gap_pct": 0.3757},
+    {"problem": "MaxCut", "id": "er_n500_d0.50_s0_sa33271_rand31367", "n_vars": 500, "seed": 0, "wall_s": 2.091982, "dsc3": 33361.000000, "dsc3_polished": 33361.000000, "baseline": 33271.000000, "valid": true, "solver": "SA", "gap_pct": 0.2705}
+  ]
+}

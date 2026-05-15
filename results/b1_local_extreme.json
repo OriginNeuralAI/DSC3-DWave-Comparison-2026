@@ -1,0 +1,27 @@
+{
+  "benchmark": "D-Wave B1: 3D cubic Edwards-Anderson spin glass (PBC)",
+  "reference": "King et al., Science 2025 / arXiv 2403.00910",
+  "preset": "fast",
+  "seeds": [0, 1, 2, 3],
+  "engine_version": "0.15.0",
+  "unix_timestamp": 1778706511,
+  "aggregated": [
+    {"L": 50, "N": 125000, "lower_bound": -375000.000000, "best_energy": -209682.000000, "median_energy": -209528.000000, "mean_energy": -209513.500000, "std_energy": 182.720415, "worst_energy": -209212.000000, "best_wall_s": 68.594952, "median_wall_s": 71.260278, "mean_wall_s": 71.317200, "std_wall_s": 2.989552, "worst_wall_s": 76.204921, "median_gs_ratio": 0.559019, "mean_gs_ratio": 0.558703, "std_gs_ratio": 0.000487},
+    {"L": 60, "N": 216000, "lower_bound": -648000.000000, "best_energy": -361884.000000, "median_energy": -361374.000000, "mean_energy": -361533.000000, "std_energy": 245.668476, "worst_energy": -361244.000000, "best_wall_s": 122.067123, "median_wall_s": 147.375146, "mean_wall_s": 145.402116, "std_wall_s": 15.880297, "worst_wall_s": 166.856996, "median_gs_ratio": 0.558071, "mean_gs_ratio": 0.557921, "std_gs_ratio": 0.000379},
+    {"L": 80, "N": 512000, "lower_bound": -1536000.000000, "best_energy": -858004.000000, "median_energy": -857528.000000, "mean_energy": -857556.000000, "std_energy": 313.710057, "worst_energy": -857118.000000, "best_wall_s": 719.053410, "median_wall_s": 849.493930, "mean_wall_s": 818.158989, "std_wall_s": 70.547692, "worst_wall_s": 910.386760, "median_gs_ratio": 0.558316, "mean_gs_ratio": 0.558305, "std_gs_ratio": 0.000204}
+  ],
+  "per_seed": [
+    {"L": 50, "N": 125000, "seed": 0, "gen_ms": 32.197, "wall_s": 69.208650, "energy": -209528.000000, "lower_bound": -375000.000000, "gs_ratio": 0.558741, "solver": "CIM", "i_value": 1.0000, "sa_only_energy": -206268.000000, "sa_only_wall_s": 4.978231},
+    {"L": 50, "N": 125000, "seed": 1, "gen_ms": 32.665, "wall_s": 68.594952, "energy": -209632.000000, "lower_bound": -375000.000000, "gs_ratio": 0.559019, "solver": "CIM", "i_value": 1.0000, "sa_only_energy": -206312.000000, "sa_only_wall_s": 5.057283},
+    {"L": 50, "N": 125000, "seed": 2, "gen_ms": 33.536, "wall_s": 71.260278, "energy": -209682.000000, "lower_bound": -375000.000000, "gs_ratio": 0.559152, "solver": "CIM", "i_value": 1.0000, "sa_only_energy": -206122.000000, "sa_only_wall_s": 5.068350},
+    {"L": 50, "N": 125000, "seed": 3, "gen_ms": 32.503, "wall_s": 76.204921, "energy": -209212.000000, "lower_bound": -375000.000000, "gs_ratio": 0.557899, "solver": "CIM", "i_value": 1.0000, "sa_only_energy": -205956.000000, "sa_only_wall_s": 5.125192},
+    {"L": 60, "N": 216000, "seed": 0, "gen_ms": 59.944, "wall_s": 166.856996, "energy": -361374.000000, "lower_bound": -648000.000000, "gs_ratio": 0.557676, "solver": "CIM", "i_value": 1.0000, "sa_only_energy": -355718.000000, "sa_only_wall_s": 13.137825},
+    {"L": 60, "N": 216000, "seed": 1, "gen_ms": 57.896, "wall_s": 145.309200, "energy": -361630.000000, "lower_bound": -648000.000000, "gs_ratio": 0.558071, "solver": "CIM", "i_value": 1.0000, "sa_only_energy": -355894.000000, "sa_only_wall_s": 13.136358},
+    {"L": 60, "N": 216000, "seed": 2, "gen_ms": 57.458, "wall_s": 147.375146, "energy": -361884.000000, "lower_bound": -648000.000000, "gs_ratio": 0.558463, "solver": "CIM", "i_value": 1.0000, "sa_only_energy": -355728.000000, "sa_only_wall_s": 13.127625},
+    {"L": 60, "N": 216000, "seed": 3, "gen_ms": 56.929, "wall_s": 122.067123, "energy": -361244.000000, "lower_bound": -648000.000000, "gs_ratio": 0.557475, "solver": "CIM", "i_value": 1.0000, "sa_only_energy": -355864.000000, "sa_only_wall_s": 13.129886},
+    {"L": 80, "N": 512000, "seed": 0, "gen_ms": 145.726, "wall_s": 719.053410, "energy": -858004.000000, "lower_bound": -1536000.000000, "gs_ratio": 0.558596, "solver": "CIM", "i_value": 1.0000, "sa_only_energy": -843780.000000, "sa_only_wall_s": 63.076559},
+    {"L": 80, "N": 512000, "seed": 1, "gen_ms": 147.551, "wall_s": 793.701856, "energy": -857118.000000, "lower_bound": -1536000.000000, "gs_ratio": 0.558020, "solver": "CIM", "i_value": 1.0000, "sa_only_energy": -843370.000000, "sa_only_wall_s": 63.517579},
+    {"L": 80, "N": 512000, "seed": 2, "gen_ms": 152.871, "wall_s": 910.386760, "energy": -857528.000000, "lower_bound": -1536000.000000, "gs_ratio": 0.558286, "solver": "CIM", "i_value": 1.0000, "sa_only_energy": -843476.000000, "sa_only_wall_s": 63.329401},
+    {"L": 80, "N": 512000, "seed": 3, "gen_ms": 143.431, "wall_s": 849.493930, "energy": -857574.000000, "lower_bound": -1536000.000000, "gs_ratio": 0.558316, "solver": "CIM", "i_value": 1.0000, "sa_only_energy": -844702.000000, "sa_only_wall_s": 62.967064}
+  ]
+}

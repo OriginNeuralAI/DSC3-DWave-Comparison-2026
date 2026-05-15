@@ -1,0 +1,18 @@
+{
+  "benchmark": "D-Wave B1: 3D cubic Edwards-Anderson spin glass (PBC)",
+  "reference": "King et al., Science 2025 / arXiv 2403.00910",
+  "preset": "production",
+  "seeds": [0, 1],
+  "engine_version": "0.15.0",
+  "unix_timestamp": 1778693677,
+  "aggregated": [
+    {"L": 8, "N": 512, "lower_bound": -1536.000000, "best_energy": -916.000000, "median_energy": -910.000000, "mean_energy": -913.000000, "std_energy": 3.000000, "worst_energy": -910.000000, "best_wall_s": 16.154082, "median_wall_s": 16.416911, "mean_wall_s": 16.285496, "std_wall_s": 0.131415, "worst_wall_s": 16.416911, "median_gs_ratio": 0.596354, "mean_gs_ratio": 0.594401, "std_gs_ratio": 0.001953},
+    {"L": 10, "N": 1000, "lower_bound": -3000.000000, "best_energy": -1776.000000, "median_energy": -1776.000000, "mean_energy": -1776.000000, "std_energy": 0.000000, "worst_energy": -1776.000000, "best_wall_s": 33.616268, "median_wall_s": 34.026628, "mean_wall_s": 33.821448, "std_wall_s": 0.205180, "worst_wall_s": 34.026628, "median_gs_ratio": 0.592000, "mean_gs_ratio": 0.592000, "std_gs_ratio": 0.000000}
+  ],
+  "per_seed": [
+    {"L": 8, "N": 512, "seed": 0, "gen_ms": 0.508, "wall_s": 16.416911, "energy": -916.000000, "lower_bound": -1536.000000, "gs_ratio": 0.596354, "solver": "GPU-SBM", "i_value": 1.0000, "sa_only_energy": -832.000000, "sa_only_wall_s": 0.002016},
+    {"L": 8, "N": 512, "seed": 1, "gen_ms": 0.476, "wall_s": 16.154082, "energy": -910.000000, "lower_bound": -1536.000000, "gs_ratio": 0.592448, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -838.000000, "sa_only_wall_s": 0.002034},
+    {"L": 10, "N": 1000, "seed": 0, "gen_ms": 2.839, "wall_s": 33.616268, "energy": -1776.000000, "lower_bound": -3000.000000, "gs_ratio": 0.592000, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -1668.000000, "sa_only_wall_s": 0.004964},
+    {"L": 10, "N": 1000, "seed": 1, "gen_ms": 3.541, "wall_s": 34.026628, "energy": -1776.000000, "lower_bound": -3000.000000, "gs_ratio": 0.592000, "solver": "SolverMorph", "i_value": 1.0000, "sa_only_energy": -1648.000000, "sa_only_wall_s": 0.005818}
+  ]
+}

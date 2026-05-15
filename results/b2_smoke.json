@@ -1,0 +1,14 @@
+{
+  "benchmark": "D-Wave B2: Currency Arbitrage QUBO (planted profitable cycle)",
+  "reference": "Cococcioni et al., arXiv 2509.22591",
+  "preset": "production",
+  "arb_profit_pct": 8,
+  "cycle_len_target": 3,
+  "seeds": [0, 1, 2, 3],
+  "per_seed": [
+    {"N_currencies": 6, "N_vars": 30, "seed": 0, "wall_s": 0.355297, "planted_profit": 1.105388, "found_profit": 1.000000, "cycle_len_found": 0, "valid_cycle": false, "solver": "SA"},
+    {"N_currencies": 6, "N_vars": 30, "seed": 1, "wall_s": 0.546566, "planted_profit": 0.996118, "found_profit": 1.000000, "cycle_len_found": 0, "valid_cycle": false, "solver": "CVTR"},
+    {"N_currencies": 6, "N_vars": 30, "seed": 2, "wall_s": 0.557794, "planted_profit": 1.074926, "found_profit": 1.000000, "cycle_len_found": 0, "valid_cycle": false, "solver": "SASSHA"},
+    {"N_currencies": 6, "N_vars": 30, "seed": 3, "wall_s": 0.327534, "planted_profit": 1.075928, "found_profit": 1.000000, "cycle_len_found": 0, "valid_cycle": false, "solver": "SA"}
+  ]
+}

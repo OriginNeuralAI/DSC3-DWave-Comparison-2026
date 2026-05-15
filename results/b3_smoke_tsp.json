@@ -1,0 +1,23 @@
+{
+  "benchmark": "D-Wave B3: Stride Hybrid Solver suite (TSP, MaxCut, Knapsack)",
+  "reference": "Booth et al., arXiv 2410.07980",
+  "preset": "production",
+  "seeds": [0, 1, 2],
+  "per_instance": [
+    {"problem": "TSP", "id": "euclid_n8_s0", "n_vars": 64, "seed": 0, "wall_s": 1.252499, "dsc3": 3.417416, "dsc3_polished": 3.417416, "baseline": 3.417416, "valid": true, "solver": "SASSHA", "gap_pct": 0.0000},
+    {"problem": "TSP", "id": "euclid_n8_s1", "n_vars": 64, "seed": 1, "wall_s": 1.222792, "dsc3": 1.913525, "dsc3_polished": 1.887865, "baseline": 1.887865, "valid": true, "solver": "SASSHA", "gap_pct": 1.3592},
+    {"problem": "TSP", "id": "euclid_n8_s2", "n_vars": 64, "seed": 2, "wall_s": 1.212553, "dsc3": 2.509954, "dsc3_polished": 2.377136, "baseline": 2.377136, "valid": true, "solver": "SA", "gap_pct": 5.5873},
+    {"problem": "TSP", "id": "euclid_n10_s0", "n_vars": 100, "seed": 0, "wall_s": 1.941413, "dsc3": 3.804712, "dsc3_polished": 3.685139, "baseline": 3.745192, "valid": true, "solver": "SolverMorph", "gap_pct": 1.5892},
+    {"problem": "TSP", "id": "euclid_n10_s1", "n_vars": 100, "seed": 1, "wall_s": 1.904913, "dsc3": inf, "dsc3_polished": inf, "baseline": 2.992623, "valid": false, "solver": "SolverMorph", "gap_pct": inf},
+    {"problem": "TSP", "id": "euclid_n10_s2", "n_vars": 100, "seed": 2, "wall_s": 1.908196, "dsc3": 3.082668, "dsc3_polished": 2.485557, "baseline": 2.485557, "valid": true, "solver": "SA", "gap_pct": 24.0232},
+    {"problem": "TSP", "id": "euclid_n12_s0", "n_vars": 144, "seed": 0, "wall_s": 3.510671, "dsc3": 4.363652, "dsc3_polished": 4.007595, "baseline": 4.119722, "valid": true, "solver": "SolverMorph", "gap_pct": 5.9210},
+    {"problem": "TSP", "id": "euclid_n12_s1", "n_vars": 144, "seed": 1, "wall_s": 3.311749, "dsc3": 3.530233, "dsc3_polished": 3.111695, "baseline": 3.111695, "valid": true, "solver": "SolverMorph", "gap_pct": 13.4505},
+    {"problem": "TSP", "id": "euclid_n12_s2", "n_vars": 144, "seed": 2, "wall_s": 3.464434, "dsc3": inf, "dsc3_polished": inf, "baseline": 2.612004, "valid": false, "solver": "SolverMorph", "gap_pct": inf},
+    {"problem": "TSP", "id": "euclid_n14_s0", "n_vars": 196, "seed": 0, "wall_s": 6.512246, "dsc3": inf, "dsc3_polished": inf, "baseline": 4.219160, "valid": false, "solver": "SASSHA", "gap_pct": inf},
+    {"problem": "TSP", "id": "euclid_n14_s1", "n_vars": 196, "seed": 1, "wall_s": 6.543369, "dsc3": inf, "dsc3_polished": inf, "baseline": 3.182509, "valid": false, "solver": "SA", "gap_pct": inf},
+    {"problem": "TSP", "id": "euclid_n14_s2", "n_vars": 196, "seed": 2, "wall_s": 6.381471, "dsc3": inf, "dsc3_polished": inf, "baseline": 2.866199, "valid": false, "solver": "SolverMorph", "gap_pct": inf},
+    {"problem": "TSP", "id": "euclid_n16_s0", "n_vars": 256, "seed": 0, "wall_s": 12.195718, "dsc3": inf, "dsc3_polished": inf, "baseline": 4.333365, "valid": false, "solver": "SA", "gap_pct": inf},
+    {"problem": "TSP", "id": "euclid_n16_s1", "n_vars": 256, "seed": 1, "wall_s": 12.094208, "dsc3": inf, "dsc3_polished": inf, "baseline": 3.407714, "valid": false, "solver": "SASSHA", "gap_pct": inf},
+    {"problem": "TSP", "id": "euclid_n16_s2", "n_vars": 256, "seed": 2, "wall_s": 12.015557, "dsc3": inf, "dsc3_polished": inf, "baseline": 2.954196, "valid": false, "solver": "SolverMorph", "gap_pct": inf}
+  ]
+}

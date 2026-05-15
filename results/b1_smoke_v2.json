@@ -1,0 +1,22 @@
+{
+  "benchmark": "D-Wave B1: 3D cubic Edwards-Anderson spin glass (PBC)",
+  "reference": "King et al., Science 2025 / arXiv 2403.00910",
+  "preset": "production",
+  "seeds": [0, 1, 2, 3],
+  "engine_version": "0.15.0",
+  "unix_timestamp": 1778683072,
+  "aggregated": [
+    {"L": 4, "N": 64, "lower_bound": -192.000000, "best_energy": -112.000000, "median_energy": -110.000000, "mean_energy": -110.500000, "std_energy": 0.866025, "worst_energy": -110.000000, "best_wall_s": 0.616213, "median_wall_s": 1.016245, "mean_wall_s": 0.917151, "std_wall_s": 0.173801, "worst_wall_s": 1.024094, "median_gs_ratio": 0.572917, "mean_gs_ratio": 0.575521, "std_gs_ratio": 0.004511},
+    {"L": 6, "N": 216, "lower_bound": -648.000000, "best_energy": -390.000000, "median_energy": -378.000000, "mean_energy": -382.000000, "std_energy": 4.898979, "worst_energy": -378.000000, "best_wall_s": 3.857802, "median_wall_s": 3.886443, "mean_wall_s": 3.905726, "std_wall_s": 0.052975, "worst_wall_s": 3.995448, "median_gs_ratio": 0.589506, "mean_gs_ratio": 0.589506, "std_gs_ratio": 0.007560}
+  ],
+  "per_seed": [
+    {"L": 4, "N": 64, "seed": 0, "gen_ms": 0.036, "wall_s": 0.616213, "energy": -112.000000, "lower_bound": -192.000000, "gs_ratio": 0.583333, "solver": "PT-SBM", "i_value": 1.0000},
+    {"L": 4, "N": 64, "seed": 1, "gen_ms": 0.054, "wall_s": 1.016245, "energy": -110.000000, "lower_bound": -192.000000, "gs_ratio": 0.572917, "solver": "PT-SBM", "i_value": 1.0000},
+    {"L": 4, "N": 64, "seed": 2, "gen_ms": 0.019, "wall_s": 1.024094, "energy": -110.000000, "lower_bound": -192.000000, "gs_ratio": 0.572917, "solver": "PT-SBM", "i_value": 1.0000},
+    {"L": 4, "N": 64, "seed": 3, "gen_ms": 0.041, "wall_s": 1.012052, "energy": -110.000000, "lower_bound": -192.000000, "gs_ratio": 0.572917, "solver": "PT-SBM", "i_value": 1.0000},
+    {"L": 6, "N": 216, "seed": 0, "gen_ms": 0.142, "wall_s": 3.995448, "energy": -382.000000, "lower_bound": -648.000000, "gs_ratio": 0.589506, "solver": "PT-SBM", "i_value": 1.0000},
+    {"L": 6, "N": 216, "seed": 1, "gen_ms": 0.236, "wall_s": 3.883211, "energy": -390.000000, "lower_bound": -648.000000, "gs_ratio": 0.601852, "solver": "CIM", "i_value": 1.0000},
+    {"L": 6, "N": 216, "seed": 2, "gen_ms": 0.165, "wall_s": 3.886443, "energy": -378.000000, "lower_bound": -648.000000, "gs_ratio": 0.583333, "solver": "PT-SBM", "i_value": 1.0000},
+    {"L": 6, "N": 216, "seed": 3, "gen_ms": 0.212, "wall_s": 3.857802, "energy": -378.000000, "lower_bound": -648.000000, "gs_ratio": 0.583333, "solver": "SolverMorph", "i_value": 1.0000}
+  ]
+}

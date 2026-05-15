@@ -1,0 +1,23 @@
+{
+  "benchmark": "D-Wave B4: Uncapacitated Facility Location QUBO",
+  "reference": "D-Wave SCM survey (RG 396834835); MDPI Information 16(8):693",
+  "preset": "quality",
+  "per_seed": [
+    {"M": 5, "N": 10, "N_vars": 55, "seed": 0, "wall_s": 10.144721, "valid": true, "dsc3_cost": 5.239837, "exact_cost": 4.781091, "gap_pct": 9.5950, "solver": "SOLG"},
+    {"M": 5, "N": 10, "N_vars": 55, "seed": 1, "wall_s": 9.723513, "valid": true, "dsc3_cost": 4.684682, "exact_cost": 4.145826, "gap_pct": 12.9975, "solver": "DMM"},
+    {"M": 5, "N": 10, "N_vars": 55, "seed": 2, "wall_s": 9.556828, "valid": true, "dsc3_cost": 4.459156, "exact_cost": 4.459156, "gap_pct": 0.0000, "solver": "DMM"},
+    {"M": 5, "N": 10, "N_vars": 55, "seed": 3, "wall_s": 9.681857, "valid": true, "dsc3_cost": 3.892414, "exact_cost": 3.892414, "gap_pct": 0.0000, "solver": "HDC"},
+    {"M": 5, "N": 20, "N_vars": 105, "seed": 0, "wall_s": 20.805757, "valid": true, "dsc3_cost": 8.884241, "exact_cost": 8.079359, "gap_pct": 9.9622, "solver": "HDC"},
+    {"M": 5, "N": 20, "N_vars": 105, "seed": 1, "wall_s": 20.187215, "valid": true, "dsc3_cost": 8.608747, "exact_cost": 7.679315, "gap_pct": 12.1031, "solver": "HDC"},
+    {"M": 5, "N": 20, "N_vars": 105, "seed": 2, "wall_s": 20.984112, "valid": true, "dsc3_cost": 8.466922, "exact_cost": 7.534631, "gap_pct": 12.3734, "solver": "HDC"},
+    {"M": 5, "N": 20, "N_vars": 105, "seed": 3, "wall_s": 20.968309, "valid": true, "dsc3_cost": 7.723126, "exact_cost": 7.338299, "gap_pct": 5.2441, "solver": "HDC"},
+    {"M": 8, "N": 10, "N_vars": 88, "seed": 0, "wall_s": 15.785945, "valid": true, "dsc3_cost": 6.329013, "exact_cost": 5.029724, "gap_pct": 25.8322, "solver": "ComplexSBM"},
+    {"M": 8, "N": 10, "N_vars": 88, "seed": 1, "wall_s": 15.963248, "valid": true, "dsc3_cost": 4.219139, "exact_cost": 3.800572, "gap_pct": 11.0133, "solver": "ComplexSBM"},
+    {"M": 8, "N": 10, "N_vars": 88, "seed": 2, "wall_s": 16.258239, "valid": true, "dsc3_cost": 4.625728, "exact_cost": 4.151560, "gap_pct": 11.4215, "solver": "HDC"},
+    {"M": 8, "N": 10, "N_vars": 88, "seed": 3, "wall_s": 16.049773, "valid": true, "dsc3_cost": 5.531390, "exact_cost": 4.590563, "gap_pct": 20.4948, "solver": "HDC"},
+    {"M": 8, "N": 20, "N_vars": 168, "seed": 0, "wall_s": 58.052155, "valid": true, "dsc3_cost": 8.360998, "exact_cost": 7.640172, "gap_pct": 9.4347, "solver": "HDC"},
+    {"M": 8, "N": 20, "N_vars": 168, "seed": 1, "wall_s": 52.896293, "valid": true, "dsc3_cost": 8.146553, "exact_cost": 6.878819, "gap_pct": 18.4295, "solver": "HDC"},
+    {"M": 8, "N": 20, "N_vars": 168, "seed": 2, "wall_s": 54.755012, "valid": true, "dsc3_cost": 7.969846, "exact_cost": 6.847362, "gap_pct": 16.3929, "solver": "HDC"},
+    {"M": 8, "N": 20, "N_vars": 168, "seed": 3, "wall_s": 58.966190, "valid": true, "dsc3_cost": 9.412711, "exact_cost": 7.220250, "gap_pct": 30.3654, "solver": "HDC"}
+  ]
+}

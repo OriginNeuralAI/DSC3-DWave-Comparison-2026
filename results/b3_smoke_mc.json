@@ -1,0 +1,23 @@
+{
+  "benchmark": "D-Wave B3: Stride Hybrid Solver suite (TSP, MaxCut, Knapsack)",
+  "reference": "Booth et al., arXiv 2410.07980",
+  "preset": "production",
+  "seeds": [0, 1, 2],
+  "per_instance": [
+    {"problem": "MaxCut", "id": "er_n20_d0.50_s0", "n_vars": 20, "seed": 0, "wall_s": 0.379437, "dsc3": 66.000000, "dsc3_polished": 66.000000, "baseline": 51.000000, "valid": true, "solver": "PT-SBM", "gap_pct": 29.4118},
+    {"problem": "MaxCut", "id": "er_n20_d0.50_s1", "n_vars": 20, "seed": 1, "wall_s": 0.379946, "dsc3": 70.000000, "dsc3_polished": 70.000000, "baseline": 61.000000, "valid": true, "solver": "PT-SBM", "gap_pct": 14.7541},
+    {"problem": "MaxCut", "id": "er_n20_d0.50_s2", "n_vars": 20, "seed": 2, "wall_s": 0.391745, "dsc3": 61.000000, "dsc3_polished": 61.000000, "baseline": 49.000000, "valid": true, "solver": "PT-SBM", "gap_pct": 24.4898},
+    {"problem": "MaxCut", "id": "er_n40_d0.30_s0", "n_vars": 40, "seed": 0, "wall_s": 0.639085, "dsc3": 170.000000, "dsc3_polished": 170.000000, "baseline": 150.000000, "valid": true, "solver": "PT-SBM", "gap_pct": 13.3333},
+    {"problem": "MaxCut", "id": "er_n40_d0.30_s1", "n_vars": 40, "seed": 1, "wall_s": 0.658153, "dsc3": 166.000000, "dsc3_polished": 166.000000, "baseline": 109.000000, "valid": true, "solver": "PT-SBM", "gap_pct": 52.2936},
+    {"problem": "MaxCut", "id": "er_n40_d0.30_s2", "n_vars": 40, "seed": 2, "wall_s": 0.659107, "dsc3": 163.000000, "dsc3_polished": 163.000000, "baseline": 126.000000, "valid": true, "solver": "PT-SBM", "gap_pct": 29.3651},
+    {"problem": "MaxCut", "id": "er_n40_d0.50_s0", "n_vars": 40, "seed": 0, "wall_s": 0.666151, "dsc3": 258.000000, "dsc3_polished": 258.000000, "baseline": 217.000000, "valid": true, "solver": "PT-SBM", "gap_pct": 18.8940},
+    {"problem": "MaxCut", "id": "er_n40_d0.50_s1", "n_vars": 40, "seed": 1, "wall_s": 0.684050, "dsc3": 254.000000, "dsc3_polished": 254.000000, "baseline": 203.000000, "valid": true, "solver": "PT-SBM", "gap_pct": 25.1232},
+    {"problem": "MaxCut", "id": "er_n40_d0.50_s2", "n_vars": 40, "seed": 2, "wall_s": 0.409598, "dsc3": 249.000000, "dsc3_polished": 249.000000, "baseline": 216.000000, "valid": true, "solver": "PT-SBM", "gap_pct": 15.2778},
+    {"problem": "MaxCut", "id": "er_n60_d0.30_s0", "n_vars": 60, "seed": 0, "wall_s": 0.982860, "dsc3": 352.000000, "dsc3_polished": 352.000000, "baseline": 280.000000, "valid": true, "solver": "PT-SBM", "gap_pct": 25.7143},
+    {"problem": "MaxCut", "id": "er_n60_d0.30_s1", "n_vars": 60, "seed": 1, "wall_s": 0.959738, "dsc3": 356.000000, "dsc3_polished": 356.000000, "baseline": 273.000000, "valid": true, "solver": "PT-SBM", "gap_pct": 30.4029},
+    {"problem": "MaxCut", "id": "er_n60_d0.30_s2", "n_vars": 60, "seed": 2, "wall_s": 0.593838, "dsc3": 328.000000, "dsc3_polished": 328.000000, "baseline": 255.000000, "valid": true, "solver": "SBM", "gap_pct": 28.6275},
+    {"problem": "MaxCut", "id": "er_n60_d0.50_s0", "n_vars": 60, "seed": 0, "wall_s": 1.014007, "dsc3": 539.000000, "dsc3_polished": 539.000000, "baseline": 463.000000, "valid": true, "solver": "PT-SBM", "gap_pct": 16.4147},
+    {"problem": "MaxCut", "id": "er_n60_d0.50_s1", "n_vars": 60, "seed": 1, "wall_s": 0.993072, "dsc3": 555.000000, "dsc3_polished": 555.000000, "baseline": 470.000000, "valid": true, "solver": "PT-SBM", "gap_pct": 18.0851},
+    {"problem": "MaxCut", "id": "er_n60_d0.50_s2", "n_vars": 60, "seed": 2, "wall_s": 0.989243, "dsc3": 523.000000, "dsc3_polished": 523.000000, "baseline": 446.000000, "valid": true, "solver": "PT-SBM", "gap_pct": 17.2646}
+  ]
+}
