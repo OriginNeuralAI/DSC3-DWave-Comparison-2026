@@ -14,9 +14,14 @@ authors:
     given-names: Shawn
     affiliation: Origin Neural
 date-released: 2026-05-14
-version: v0.15.1-paper
-url: "https://github.com/OriginNeuralAI/DSC3-DWave-Comparison-2026"
+version: v0.15.2-paper
+doi: 10.5281/zenodo.20192275
+url: "https://doi.org/10.5281/zenodo.20192275"
 repository-code: "https://github.com/OriginNeuralAI/DSC3-DWave-Comparison-2026"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20192275
+    description: Zenodo deposit of the published paper PDF
 keywords:
   - quantum-annealing
   - d-wave

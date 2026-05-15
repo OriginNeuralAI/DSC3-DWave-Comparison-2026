@@ -1,7 +1,8 @@
 # DSC-3 vs. D-Wave Advantage2 — Industrial Benchmark Comparison (2024–2026)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20192275.svg)](https://doi.org/10.5281/zenodo.20192275)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Release: v0.15.1-paper](https://img.shields.io/badge/release-v0.15.1--paper-blue)](https://github.com/OriginNeuralAI/DSC3-DWave-Comparison-2026/releases/tag/v0.15.1-paper)
+[![Release: v0.15.2-paper](https://img.shields.io/badge/release-v0.15.2--paper-blue)](https://github.com/OriginNeuralAI/DSC3-DWave-Comparison-2026/releases/tag/v0.15.2-paper)
 [![Paper: 40 pp](https://img.shields.io/badge/paper-40%20pp-success)](main.pdf)
 [![Reproducible: SHA-256 manifest](https://img.shields.io/badge/reproducible-SHA--256%20manifest-brightgreen)](main.pdf)
 
@@ -146,15 +147,20 @@ Three paths, in order of effort:
 
 ## Citation
 
+[**Zenodo DOI: 10.5281/zenodo.20192275**](https://doi.org/10.5281/zenodo.20192275)
+
 ```bibtex
-@techreport{daugherty_ward_ryan_dsc3_dwave_2026,
-  author = {Bryan W. Daugherty and Gregory Ward and Shawn Ryan},
-  title  = {A Reproducible Classical Reference for D-Wave Advantage2's
-            2024--2026 Industrial Benchmarks: Ground-state 3D $\pm J$
-            Ising at $N=10^{6}$ Spins on a \$1.57/Hour GPU Droplet},
-  institution = {Origin Neural},
-  year   = {2026},
-  url    = {https://github.com/OriginNeuralAI/DSC3-DWave-Comparison-2026}
+@misc{daugherty_ward_ryan_dsc3_dwave_2026,
+  author    = {Bryan W. Daugherty and Gregory Ward and Shawn Ryan},
+  title     = {A Reproducible Classical Reference for D-Wave Advantage2's
+               2024--2026 Industrial Benchmarks: Ground-state 3D $\pm J$
+               Ising at $N=10^{6}$ Spins on a \$1.57/Hour GPU Droplet},
+  publisher = {Zenodo},
+  year      = {2026},
+  month     = may,
+  doi       = {10.5281/zenodo.20192275},
+  url       = {https://doi.org/10.5281/zenodo.20192275},
+  note      = {GitHub: \url{https://github.com/OriginNeuralAI/DSC3-DWave-Comparison-2026}}
 }
 ```
 

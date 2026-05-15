@@ -4,6 +4,15 @@ All notable changes to this paper and its accompanying artefacts.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [v0.15.2-paper] — 2026-05-14
+
+Zenodo-anchored release.
+
+- **Zenodo DOI minted: [10.5281/zenodo.20192275](https://doi.org/10.5281/zenodo.20192275)**
+- Paper title page now displays the DOI
+- README + CITATION.cff updated with DOI reference
+- DOI badge added to README header
+
 ## [v0.15.1-paper] — 2026-05-14
 
 Initial public release.

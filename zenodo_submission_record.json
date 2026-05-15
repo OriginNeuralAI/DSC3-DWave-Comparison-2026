@@ -1,0 +1,8 @@
+{
+  "doi": "10.5281/zenodo.20192275",
+  "url": "https://zenodo.org/records/20192275",
+  "deposit_id": 20192275,
+  "title": "A Reproducible Classical Reference for D-Wave Advantage2's 2024-2026 Industrial Benchmarks: Ground-state 3D pm J Ising at N = 10^6 Spins on a $1.57/Hour GPU Droplet, with SHA-256-Pinned Artefacts and a 'Benchmark Gap' Audit",
+  "publication_date": "2026-05-14",
+  "version": "v0.15.1-paper"
+}
